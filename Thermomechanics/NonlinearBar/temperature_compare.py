@@ -32,7 +32,7 @@ k = 1.0e3  ## thermal conductivity
 q = 1.0    ## flux boundary condition
 T = 0.0    ## fixed temperature BC
 
-
+# time step (looking at 19th time step)
 variable = {'name': 'Temperature', 'time': 19.0}
 
 # get x, y data from results
