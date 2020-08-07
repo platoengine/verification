@@ -19,7 +19,7 @@ where L is the length of the bar. The initial temperature of the bar is:
 
 such that the temperature throughout the bar represents a sinusoid. Through separation of variables, the solution is:
 
-\f$ u(x,t) = \sum\limits_{n=1}^\infty B_nsin(\frac{n\pi x}{L})e^{-\lambda^2_n t}  \f$
+\f$u(x,t) = \sum\limits_{n=1}^\infty B_nsin(\frac{n\pi x}{L})e^{-\lambda^2_n t}  \f$
 
 <li> <b>Comparison:</b> </li>
 This 1D problem is solved using Plato Analyze on a 3D mesh using the following data:

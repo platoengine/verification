@@ -27,11 +27,6 @@ def sol(x):
 tolerance = 1e2
 print "#L2_error_norm_tolerance:", tolerance
 
-l = 2.0    ## length
-k = 1.0e3  ## thermal conductivity
-q = 1.0    ## flux boundary condition
-T = 0.0    ## fixed temperature BC
-
 # time step (looking at 1st time step or t = 0 sec)
 variable = {'name': 'Temperature', 'time': 0.0}
 
